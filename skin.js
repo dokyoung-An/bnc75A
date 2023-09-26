@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.6/20004
 // Filename: ?? ?????.ggsk
-// Generated 2023-09-26T21:11:23
+// Generated 2023-09-26T21:19:59
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_catagory', 2, false, { ignoreInState: 0  });
@@ -12625,25 +12625,6 @@ function pano2vrSkin(player,base) {
 			}
 		}
 		me.__10.logicBlock_size();
-		me.__10.onmousedown=function (e) {
-			me.elementMouseDown['_10']=true;
-		}
-		me.__10.onmouseup=function (e) {
-			me.elementMouseDown['_10']=false;
-		}
-		me.__10.onmouseout=function (e) {
-			me.elementMouseDown['_10']=false;
-		}
-		me.__10.ggCurrentLogicStatePosition = -1;
-		me.__10.ggCurrentLogicStateSize = -1;
-		me.__10.ggUpdateConditionTimer=function () {
-			if (me.elementMouseDown['_10']) {
-				me.__10.ggVisible = !me.__10.ggVisible;
-				var flag=me.__10.ggVisible;
-				me.__10.style.transition='none';
-				me.__10.style.visibility=((flag)&&(Number(me.__10.style.opacity)>0||!me.__10.style.opacity))?'inherit':'hidden';
-			}
-		}
 		me.__10.ggUpdatePosition=function (useTransition) {
 		}
 		el=me.__60=document.createElement('div');
@@ -19405,7 +19386,6 @@ me._map_pin_normal.ggUpdateConditionTimer(); });
 		me.__410.ggUpdateConditionTimer();
 		me.__510.ggUpdateConditionTimer();
 		me.__62.ggUpdateConditionTimer();
-		me.__10.ggUpdateConditionTimer();
 		me._m_6.ggUpdateConditionTimer();
 		me._m_5.ggUpdateConditionTimer();
 		me._m_4.ggUpdateConditionTimer();
