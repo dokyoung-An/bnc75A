@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.6/20004
 // Filename: ?? ?????.ggsk
-// Generated 2023-09-27T01:20:45
+// Generated 2023-09-27T01:27:56
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_catagory', 2, false, { ignoreInState: 0  });
@@ -5167,7 +5167,7 @@ function pano2vrSkin(player,base) {
 		els.setAttribute('style',hs);
 		me.__115.ggUpdateText=function() {
 			var params = [];
-			var hs = player._("84A TYPE", params);
+			var hs = player._("84A TYPE - \uc900\ube44\uc911", params);
 			if (hs!=this.ggText) {
 				this.ggText=hs;
 				this.ggTextDiv.innerHTML=hs;
@@ -5613,7 +5613,7 @@ function pano2vrSkin(player,base) {
 		els.setAttribute('style',hs);
 		me.__312.ggUpdateText=function() {
 			var params = [];
-			var hs = player._("74B TYPE - \uc900\ube44\uc911", params);
+			var hs = player._("74B TYPE", params);
 			if (hs!=this.ggText) {
 				this.ggText=hs;
 				this.ggTextDiv.innerHTML=hs;
@@ -14676,7 +14676,7 @@ function pano2vrSkin(player,base) {
 		els.setAttribute('style',hs);
 		me._m_3.ggUpdateText=function() {
 			var params = [];
-			var hs = player._("74B TYPE - \uc900\ube44\uc911", params);
+			var hs = player._("74B TYPE ", params);
 			if (hs!=this.ggText) {
 				this.ggText=hs;
 				this.ggTextDiv.innerHTML=hs;
@@ -15166,7 +15166,7 @@ function pano2vrSkin(player,base) {
 		els.setAttribute('style',hs);
 		me._m_1.ggUpdateText=function() {
 			var params = [];
-			var hs = player._("84A TYPE", params);
+			var hs = player._("84A TYPE - \uc900\ube44\uc911", params);
 			if (hs!=this.ggText) {
 				this.ggText=hs;
 				this.ggTextDiv.innerHTML=hs;
