@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.6/20004
 // Filename: ?? ?????.ggsk
-// Generated 2023-10-10T01:51:15
+// Generated 2023-10-10T02:10:58
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_catagory', 2, false, { ignoreInState: 0  });
@@ -3794,7 +3794,7 @@ function pano2vrSkin(player,base) {
 		me.__74a0.logicBlock_visible();
 		me.__74a0.ggUpdatePosition=function (useTransition) {
 		}
-		el=me.__74a8=document.createElement('div');
+		el=me.__74a7=document.createElement('div');
 		el.ggMarkerNodeId='{node12}';
 		el.ggMarkerInstances = [];
 		nodeMarker.push(el);
@@ -3813,7 +3813,7 @@ function pano2vrSkin(player,base) {
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
-		me.__74a8.ggIsActive=function() {
+		me.__74a7.ggIsActive=function() {
 			return this.ggIsMarkerActive==true;
 		}
 		el.ggElementNodeId=function() {
@@ -3823,14 +3823,14 @@ function pano2vrSkin(player,base) {
 			}
 			return '';
 		}
-		me.__74a8.onclick=function (e) {
+		me.__74a7.onclick=function (e) {
 			player.openNext('{node12}');
 		}
-		me.__74a8.ggUpdatePosition=function (useTransition) {
-			me.__74a8__normalInst.ggEvent_sizechanged();
-			me.__74a8__activeInst.ggEvent_sizechanged();
+		me.__74a7.ggUpdatePosition=function (useTransition) {
+			me.__74a7__normalInst.ggEvent_sizechanged();
+			me.__74a7__activeInst.ggEvent_sizechanged();
 		}
-		me.__74a0.appendChild(me.__74a8);
+		me.__74a0.appendChild(me.__74a7);
 		el=me.__74a11=document.createElement('div');
 		el.ggMarkerNodeId='{node7}';
 		el.ggMarkerInstances = [];
@@ -3942,7 +3942,7 @@ function pano2vrSkin(player,base) {
 			me.__74a31__activeInst.ggEvent_sizechanged();
 		}
 		me.__74a0.appendChild(me.__74a31);
-		el=me.__74a24=document.createElement('div');
+		el=me.__74a25=document.createElement('div');
 		el.ggMarkerNodeId='{node9}';
 		el.ggMarkerInstances = [];
 		nodeMarker.push(el);
@@ -3961,7 +3961,7 @@ function pano2vrSkin(player,base) {
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
-		me.__74a24.ggIsActive=function() {
+		me.__74a25.ggIsActive=function() {
 			return this.ggIsMarkerActive==true;
 		}
 		el.ggElementNodeId=function() {
@@ -3971,14 +3971,14 @@ function pano2vrSkin(player,base) {
 			}
 			return '';
 		}
-		me.__74a24.onclick=function (e) {
+		me.__74a25.onclick=function (e) {
 			player.openNext('{node9}');
 		}
-		me.__74a24.ggUpdatePosition=function (useTransition) {
-			me.__74a24__normalInst.ggEvent_sizechanged();
-			me.__74a24__activeInst.ggEvent_sizechanged();
+		me.__74a25.ggUpdatePosition=function (useTransition) {
+			me.__74a25__normalInst.ggEvent_sizechanged();
+			me.__74a25__activeInst.ggEvent_sizechanged();
 		}
-		me.__74a0.appendChild(me.__74a24);
+		me.__74a0.appendChild(me.__74a25);
 		el=me.__74a210=document.createElement('div');
 		el.ggMarkerNodeId='{node18}';
 		el.ggMarkerInstances = [];
@@ -4016,7 +4016,7 @@ function pano2vrSkin(player,base) {
 			me.__74a210__activeInst.ggEvent_sizechanged();
 		}
 		me.__74a0.appendChild(me.__74a210);
-		el=me.__74a23=document.createElement('div');
+		el=me.__74a24=document.createElement('div');
 		el.ggMarkerNodeId='{node14}';
 		el.ggMarkerInstances = [];
 		nodeMarker.push(el);
@@ -4035,7 +4035,7 @@ function pano2vrSkin(player,base) {
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
-		me.__74a23.ggIsActive=function() {
+		me.__74a24.ggIsActive=function() {
 			return this.ggIsMarkerActive==true;
 		}
 		el.ggElementNodeId=function() {
@@ -4045,52 +4045,15 @@ function pano2vrSkin(player,base) {
 			}
 			return '';
 		}
-		me.__74a23.onclick=function (e) {
+		me.__74a24.onclick=function (e) {
 			player.openNext('{node14}');
 		}
-		me.__74a23.ggUpdatePosition=function (useTransition) {
-			me.__74a23__normalInst.ggEvent_sizechanged();
-			me.__74a23__activeInst.ggEvent_sizechanged();
+		me.__74a24.ggUpdatePosition=function (useTransition) {
+			me.__74a24__normalInst.ggEvent_sizechanged();
+			me.__74a24__activeInst.ggEvent_sizechanged();
 		}
-		me.__74a0.appendChild(me.__74a23);
-		el=me.__74a7=document.createElement('div');
-		el.ggMarkerNodeId='{node5}';
-		el.ggMarkerInstances = [];
-		nodeMarker.push(el);
-		el.ggId="74A-\ud32c\ud2b8\ub9ac";
-		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
-		el.ggVisible=true;
-		el.className="ggskin ggskin_mark ";
-		el.ggType='mark';
-		hs ='';
-		hs+='height : 0px;';
-		hs+='left : 96px;';
-		hs+='position : absolute;';
-		hs+='top : 128px;';
-		hs+='visibility : inherit;';
-		hs+='width : 0px;';
-		hs+='pointer-events:auto;';
-		el.setAttribute('style',hs);
-		el.style.transformOrigin='50% 50%';
-		me.__74a7.ggIsActive=function() {
-			return this.ggIsMarkerActive==true;
-		}
-		el.ggElementNodeId=function() {
-			var hs=String(this.ggMarkerNodeId);
-			if (hs.charAt(0)=='{') { // }
-				return hs.substr(1, hs.length - 2);
-			}
-			return '';
-		}
-		me.__74a7.onclick=function (e) {
-			player.openNext('{node5}');
-		}
-		me.__74a7.ggUpdatePosition=function (useTransition) {
-			me.__74a7__normalInst.ggEvent_sizechanged();
-			me.__74a7__activeInst.ggEvent_sizechanged();
-		}
-		me.__74a0.appendChild(me.__74a7);
-		el=me.__74a22=document.createElement('div');
+		me.__74a0.appendChild(me.__74a24);
+		el=me.__74a23=document.createElement('div');
 		el.ggMarkerNodeId='{node13}';
 		el.ggMarkerInstances = [];
 		nodeMarker.push(el);
@@ -4109,7 +4072,7 @@ function pano2vrSkin(player,base) {
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
-		me.__74a22.ggIsActive=function() {
+		me.__74a23.ggIsActive=function() {
 			return this.ggIsMarkerActive==true;
 		}
 		el.ggElementNodeId=function() {
@@ -4119,14 +4082,14 @@ function pano2vrSkin(player,base) {
 			}
 			return '';
 		}
-		me.__74a22.onclick=function (e) {
+		me.__74a23.onclick=function (e) {
 			player.openNext('{node13}');
 		}
-		me.__74a22.ggUpdatePosition=function (useTransition) {
-			me.__74a22__normalInst.ggEvent_sizechanged();
-			me.__74a22__activeInst.ggEvent_sizechanged();
+		me.__74a23.ggUpdatePosition=function (useTransition) {
+			me.__74a23__normalInst.ggEvent_sizechanged();
+			me.__74a23__activeInst.ggEvent_sizechanged();
 		}
-		me.__74a0.appendChild(me.__74a22);
+		me.__74a0.appendChild(me.__74a23);
 		el=me.__74a6=document.createElement('div');
 		el.ggMarkerNodeId='{node6}';
 		el.ggMarkerInstances = [];
@@ -4238,7 +4201,7 @@ function pano2vrSkin(player,base) {
 			me.__74a4__activeInst.ggEvent_sizechanged();
 		}
 		me.__74a0.appendChild(me.__74a4);
-		el=me.__74a21=document.createElement('div');
+		el=me.__74a22=document.createElement('div');
 		el.ggMarkerNodeId='{node16}';
 		el.ggMarkerInstances = [];
 		nodeMarker.push(el);
@@ -4257,7 +4220,7 @@ function pano2vrSkin(player,base) {
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
-		me.__74a21.ggIsActive=function() {
+		me.__74a22.ggIsActive=function() {
 			return this.ggIsMarkerActive==true;
 		}
 		el.ggElementNodeId=function() {
@@ -4267,14 +4230,14 @@ function pano2vrSkin(player,base) {
 			}
 			return '';
 		}
-		me.__74a21.onclick=function (e) {
+		me.__74a22.onclick=function (e) {
 			player.openNext('{node16}');
 		}
-		me.__74a21.ggUpdatePosition=function (useTransition) {
-			me.__74a21__normalInst.ggEvent_sizechanged();
-			me.__74a21__activeInst.ggEvent_sizechanged();
+		me.__74a22.ggUpdatePosition=function (useTransition) {
+			me.__74a22__normalInst.ggEvent_sizechanged();
+			me.__74a22__activeInst.ggEvent_sizechanged();
 		}
-		me.__74a0.appendChild(me.__74a21);
+		me.__74a0.appendChild(me.__74a22);
 		el=me.__74a30=document.createElement('div');
 		el.ggMarkerNodeId='{node17}';
 		el.ggMarkerInstances = [];
@@ -4349,7 +4312,7 @@ function pano2vrSkin(player,base) {
 			me.__74a3__activeInst.ggEvent_sizechanged();
 		}
 		me.__74a0.appendChild(me.__74a3);
-		el=me.__74a20=document.createElement('div');
+		el=me.__74a21=document.createElement('div');
 		el.ggMarkerNodeId='{node22}';
 		el.ggMarkerInstances = [];
 		nodeMarker.push(el);
@@ -4368,7 +4331,7 @@ function pano2vrSkin(player,base) {
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
-		me.__74a20.ggIsActive=function() {
+		me.__74a21.ggIsActive=function() {
 			return this.ggIsMarkerActive==true;
 		}
 		el.ggElementNodeId=function() {
@@ -4378,14 +4341,14 @@ function pano2vrSkin(player,base) {
 			}
 			return '';
 		}
-		me.__74a20.onclick=function (e) {
+		me.__74a21.onclick=function (e) {
 			player.openNext('{node22}');
 		}
-		me.__74a20.ggUpdatePosition=function (useTransition) {
-			me.__74a20__normalInst.ggEvent_sizechanged();
-			me.__74a20__activeInst.ggEvent_sizechanged();
+		me.__74a21.ggUpdatePosition=function (useTransition) {
+			me.__74a21__normalInst.ggEvent_sizechanged();
+			me.__74a21__activeInst.ggEvent_sizechanged();
 		}
-		me.__74a0.appendChild(me.__74a20);
+		me.__74a0.appendChild(me.__74a21);
 		el=me.__74a10=document.createElement('div');
 		el.ggMarkerNodeId='{node20}';
 		el.ggMarkerInstances = [];
@@ -4423,7 +4386,7 @@ function pano2vrSkin(player,base) {
 			me.__74a10__activeInst.ggEvent_sizechanged();
 		}
 		me.__74a0.appendChild(me.__74a10);
-		el=me.__74a2=document.createElement('div');
+		el=me.__74a20=document.createElement('div');
 		el.ggMarkerNodeId='{node3}';
 		el.ggMarkerInstances = [];
 		nodeMarker.push(el);
@@ -4442,7 +4405,7 @@ function pano2vrSkin(player,base) {
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
-		me.__74a2.ggIsActive=function() {
+		me.__74a20.ggIsActive=function() {
 			return this.ggIsMarkerActive==true;
 		}
 		el.ggElementNodeId=function() {
@@ -4452,15 +4415,15 @@ function pano2vrSkin(player,base) {
 			}
 			return '';
 		}
-		me.__74a2.onclick=function (e) {
+		me.__74a20.onclick=function (e) {
 			player.openNext('{node3}');
 		}
-		me.__74a2.ggUpdatePosition=function (useTransition) {
-			me.__74a2__normalInst.ggEvent_sizechanged();
-			me.__74a2__activeInst.ggEvent_sizechanged();
+		me.__74a20.ggUpdatePosition=function (useTransition) {
+			me.__74a20__normalInst.ggEvent_sizechanged();
+			me.__74a20__activeInst.ggEvent_sizechanged();
 		}
-		me.__74a0.appendChild(me.__74a2);
-		el=me.__74a1=document.createElement('div');
+		me.__74a0.appendChild(me.__74a20);
+		el=me.__74a2=document.createElement('div');
 		el.ggMarkerNodeId='{node23}';
 		el.ggMarkerInstances = [];
 		nodeMarker.push(el);
@@ -4479,6 +4442,43 @@ function pano2vrSkin(player,base) {
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
+		me.__74a2.ggIsActive=function() {
+			return this.ggIsMarkerActive==true;
+		}
+		el.ggElementNodeId=function() {
+			var hs=String(this.ggMarkerNodeId);
+			if (hs.charAt(0)=='{') { // }
+				return hs.substr(1, hs.length - 2);
+			}
+			return '';
+		}
+		me.__74a2.onclick=function (e) {
+			player.openNext('{node23}');
+		}
+		me.__74a2.ggUpdatePosition=function (useTransition) {
+			me.__74a2__normalInst.ggEvent_sizechanged();
+			me.__74a2__activeInst.ggEvent_sizechanged();
+		}
+		me.__74a0.appendChild(me.__74a2);
+		el=me.__74a1=document.createElement('div');
+		el.ggMarkerNodeId='{node24}';
+		el.ggMarkerInstances = [];
+		nodeMarker.push(el);
+		el.ggId="74A-\ud32c\ud2b8\ub9ac";
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_mark ";
+		el.ggType='mark';
+		hs ='';
+		hs+='height : 0px;';
+		hs+='left : 90px;';
+		hs+='position : absolute;';
+		hs+='top : 126px;';
+		hs+='visibility : inherit;';
+		hs+='width : 0px;';
+		hs+='pointer-events:auto;';
+		el.setAttribute('style',hs);
+		el.style.transformOrigin='50% 50%';
 		me.__74a1.ggIsActive=function() {
 			return this.ggIsMarkerActive==true;
 		}
@@ -4490,7 +4490,7 @@ function pano2vrSkin(player,base) {
 			return '';
 		}
 		me.__74a1.onclick=function (e) {
-			player.openNext('{node23}');
+			player.openNext('{node24}');
 		}
 		me.__74a1.ggUpdatePosition=function (useTransition) {
 			me.__74a1__normalInst.ggEvent_sizechanged();
@@ -13481,43 +13481,6 @@ function pano2vrSkin(player,base) {
 		}
 		me.__74am.appendChild(me.__74am23);
 		el=me.__74am5=document.createElement('div');
-		el.ggMarkerNodeId='{node5}';
-		el.ggMarkerInstances = [];
-		nodeMarker.push(el);
-		el.ggId="74A-m-\ud32c\ud2b8\ub9ac";
-		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
-		el.ggVisible=true;
-		el.className="ggskin ggskin_mark ";
-		el.ggType='mark';
-		hs ='';
-		hs+='height : 0px;';
-		hs+='left : 36px;';
-		hs+='position : absolute;';
-		hs+='top : 48px;';
-		hs+='visibility : inherit;';
-		hs+='width : 0px;';
-		hs+='pointer-events:auto;';
-		el.setAttribute('style',hs);
-		el.style.transformOrigin='50% 50%';
-		me.__74am5.ggIsActive=function() {
-			return this.ggIsMarkerActive==true;
-		}
-		el.ggElementNodeId=function() {
-			var hs=String(this.ggMarkerNodeId);
-			if (hs.charAt(0)=='{') { // }
-				return hs.substr(1, hs.length - 2);
-			}
-			return '';
-		}
-		me.__74am5.onclick=function (e) {
-			player.openNext('{node5}');
-		}
-		me.__74am5.ggUpdatePosition=function (useTransition) {
-			me.__74am5__normalInst.ggEvent_sizechanged();
-			me.__74am5__activeInst.ggEvent_sizechanged();
-		}
-		me.__74am.appendChild(me.__74am5);
-		el=me.__74am4=document.createElement('div');
 		el.ggMarkerNodeId='{node8}';
 		el.ggMarkerInstances = [];
 		nodeMarker.push(el);
@@ -13536,7 +13499,7 @@ function pano2vrSkin(player,base) {
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
-		me.__74am4.ggIsActive=function() {
+		me.__74am5.ggIsActive=function() {
 			return this.ggIsMarkerActive==true;
 		}
 		el.ggElementNodeId=function() {
@@ -13546,14 +13509,14 @@ function pano2vrSkin(player,base) {
 			}
 			return '';
 		}
-		me.__74am4.onclick=function (e) {
+		me.__74am5.onclick=function (e) {
 			player.openNext('{node8}');
 		}
-		me.__74am4.ggUpdatePosition=function (useTransition) {
-			me.__74am4__normalInst.ggEvent_sizechanged();
-			me.__74am4__activeInst.ggEvent_sizechanged();
+		me.__74am5.ggUpdatePosition=function (useTransition) {
+			me.__74am5__normalInst.ggEvent_sizechanged();
+			me.__74am5__activeInst.ggEvent_sizechanged();
 		}
-		me.__74am.appendChild(me.__74am4);
+		me.__74am.appendChild(me.__74am5);
 		el=me.__74am22=document.createElement('div');
 		el.ggMarkerNodeId='{node16}';
 		el.ggMarkerInstances = [];
@@ -13628,7 +13591,7 @@ function pano2vrSkin(player,base) {
 			me.__74am30__activeInst.ggEvent_sizechanged();
 		}
 		me.__74am.appendChild(me.__74am30);
-		el=me.__74am3=document.createElement('div');
+		el=me.__74am4=document.createElement('div');
 		el.ggMarkerNodeId='{node11}';
 		el.ggMarkerInstances = [];
 		nodeMarker.push(el);
@@ -13647,7 +13610,7 @@ function pano2vrSkin(player,base) {
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
-		me.__74am3.ggIsActive=function() {
+		me.__74am4.ggIsActive=function() {
 			return this.ggIsMarkerActive==true;
 		}
 		el.ggElementNodeId=function() {
@@ -13657,15 +13620,15 @@ function pano2vrSkin(player,base) {
 			}
 			return '';
 		}
-		me.__74am3.onclick=function (e) {
+		me.__74am4.onclick=function (e) {
 			player.openNext('{node11}');
 		}
-		me.__74am3.ggUpdatePosition=function (useTransition) {
-			me.__74am3__normalInst.ggEvent_sizechanged();
-			me.__74am3__activeInst.ggEvent_sizechanged();
+		me.__74am4.ggUpdatePosition=function (useTransition) {
+			me.__74am4__normalInst.ggEvent_sizechanged();
+			me.__74am4__activeInst.ggEvent_sizechanged();
 		}
-		me.__74am.appendChild(me.__74am3);
-		el=me.__74am0=document.createElement('div');
+		me.__74am.appendChild(me.__74am4);
+		el=me.__74am3=document.createElement('div');
 		el.ggMarkerNodeId='{node6}';
 		el.ggMarkerInstances = [];
 		nodeMarker.push(el);
@@ -13684,7 +13647,7 @@ function pano2vrSkin(player,base) {
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
-		me.__74am0.ggIsActive=function() {
+		me.__74am3.ggIsActive=function() {
 			return this.ggIsMarkerActive==true;
 		}
 		el.ggElementNodeId=function() {
@@ -13694,14 +13657,14 @@ function pano2vrSkin(player,base) {
 			}
 			return '';
 		}
-		me.__74am0.onclick=function (e) {
+		me.__74am3.onclick=function (e) {
 			player.openNext('{node6}');
 		}
-		me.__74am0.ggUpdatePosition=function (useTransition) {
-			me.__74am0__normalInst.ggEvent_sizechanged();
-			me.__74am0__activeInst.ggEvent_sizechanged();
+		me.__74am3.ggUpdatePosition=function (useTransition) {
+			me.__74am3__normalInst.ggEvent_sizechanged();
+			me.__74am3__activeInst.ggEvent_sizechanged();
 		}
-		me.__74am.appendChild(me.__74am0);
+		me.__74am.appendChild(me.__74am3);
 		el=me.__74am21=document.createElement('div');
 		el.ggMarkerNodeId='{node13}';
 		el.ggMarkerInstances = [];
@@ -13924,6 +13887,43 @@ function pano2vrSkin(player,base) {
 			me.__74a__activeInst.ggEvent_sizechanged();
 		}
 		me.__74am.appendChild(me.__74a);
+		el=me.__74am0=document.createElement('div');
+		el.ggMarkerNodeId='{node24}';
+		el.ggMarkerInstances = [];
+		nodeMarker.push(el);
+		el.ggId="74A-m-\ud32c\ud2b8\ub9ac";
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_mark ";
+		el.ggType='mark';
+		hs ='';
+		hs+='height : 0px;';
+		hs+='left : 33px;';
+		hs+='position : absolute;';
+		hs+='top : 46px;';
+		hs+='visibility : inherit;';
+		hs+='width : 0px;';
+		hs+='pointer-events:auto;';
+		el.setAttribute('style',hs);
+		el.style.transformOrigin='50% 50%';
+		me.__74am0.ggIsActive=function() {
+			return this.ggIsMarkerActive==true;
+		}
+		el.ggElementNodeId=function() {
+			var hs=String(this.ggMarkerNodeId);
+			if (hs.charAt(0)=='{') { // }
+				return hs.substr(1, hs.length - 2);
+			}
+			return '';
+		}
+		me.__74am0.onclick=function (e) {
+			player.openNext('{node24}');
+		}
+		me.__74am0.ggUpdatePosition=function (useTransition) {
+			me.__74am0__normalInst.ggEvent_sizechanged();
+			me.__74am0__activeInst.ggEvent_sizechanged();
+		}
+		me.__74am.appendChild(me.__74am0);
 		me.__25.appendChild(me.__74am);
 		el=me.__74bm=document.createElement('div');
 		els=me.__74bm__img=document.createElement('img');
@@ -22047,34 +22047,34 @@ function pano2vrSkin(player,base) {
 			me.__74b0.ggMarkerInstances.push(me.__74b0.childNodes[i]);
 		}
 		me.__74a0.logicBlock_visible();
-		var clonedNormalElement = new SkinElement_map_pin_Class(this,me.__74a8);
-		me.__74a8__normal = clonedNormalElement._map_pin;
-		me.__74a8__normalInst = clonedNormalElement;
-		me.__74a8__normal.style.visibility='inherit';
-		me.__74a8__normal.style.left='-12px';
-		me.__74a8__normal.style.top='-41px';
-		me.__74a8.ggMarkerNormal=me.__74a8__normal;
-		me.__74a8.ggMarkerInstances.push(clonedNormalElement);
-		var clonedActiveElement = new SkinElement_map_pin_Class(this,me.__74a8);
-		me.__74a8__active = clonedActiveElement._map_pin;
-		me.__74a8__activeInst = clonedActiveElement;
-		me.__74a8__active.style.visibility='hidden';
-		me.__74a8__active.style.left='-12px';
-		me.__74a8__active.style.top='-41px';
-		me.__74a8.ggMarkerActive=me.__74a8__active;
-		me.__74a8.ggMarkerInstances.push(clonedActiveElement);
-		if (me.__74a8.firstChild) {
-			me.__74a8.insertBefore(me.__74a8__active,me.__74a8.firstChild);
+		var clonedNormalElement = new SkinElement_map_pin_Class(this,me.__74a7);
+		me.__74a7__normal = clonedNormalElement._map_pin;
+		me.__74a7__normalInst = clonedNormalElement;
+		me.__74a7__normal.style.visibility='inherit';
+		me.__74a7__normal.style.left='-12px';
+		me.__74a7__normal.style.top='-41px';
+		me.__74a7.ggMarkerNormal=me.__74a7__normal;
+		me.__74a7.ggMarkerInstances.push(clonedNormalElement);
+		var clonedActiveElement = new SkinElement_map_pin_Class(this,me.__74a7);
+		me.__74a7__active = clonedActiveElement._map_pin;
+		me.__74a7__activeInst = clonedActiveElement;
+		me.__74a7__active.style.visibility='hidden';
+		me.__74a7__active.style.left='-12px';
+		me.__74a7__active.style.top='-41px';
+		me.__74a7.ggMarkerActive=me.__74a7__active;
+		me.__74a7.ggMarkerInstances.push(clonedActiveElement);
+		if (me.__74a7.firstChild) {
+			me.__74a7.insertBefore(me.__74a7__active,me.__74a7.firstChild);
 		} else {
-			me.__74a8.appendChild(me.__74a8__active);
+			me.__74a7.appendChild(me.__74a7__active);
 		}
-		if (me.__74a8.firstChild) {
-			me.__74a8.insertBefore(me.__74a8__normal,me.__74a8.firstChild);
+		if (me.__74a7.firstChild) {
+			me.__74a7.insertBefore(me.__74a7__normal,me.__74a7.firstChild);
 		} else {
-			me.__74a8.appendChild(me.__74a8__normal);
+			me.__74a7.appendChild(me.__74a7__normal);
 		}
-		for (var i = 0; i < me.__74a8.childNodes.length; i++) {
-			me.__74a8.ggMarkerInstances.push(me.__74a8.childNodes[i]);
+		for (var i = 0; i < me.__74a7.childNodes.length; i++) {
+			me.__74a7.ggMarkerInstances.push(me.__74a7.childNodes[i]);
 		}
 		var clonedNormalElement = new SkinElement_map_pin_Class(this,me.__74a11);
 		me.__74a11__normal = clonedNormalElement._map_pin;
@@ -22163,34 +22163,34 @@ function pano2vrSkin(player,base) {
 		for (var i = 0; i < me.__74a31.childNodes.length; i++) {
 			me.__74a31.ggMarkerInstances.push(me.__74a31.childNodes[i]);
 		}
-		var clonedNormalElement = new SkinElement_map_pin_Class(this,me.__74a24);
-		me.__74a24__normal = clonedNormalElement._map_pin;
-		me.__74a24__normalInst = clonedNormalElement;
-		me.__74a24__normal.style.visibility='inherit';
-		me.__74a24__normal.style.left='-12px';
-		me.__74a24__normal.style.top='-41px';
-		me.__74a24.ggMarkerNormal=me.__74a24__normal;
-		me.__74a24.ggMarkerInstances.push(clonedNormalElement);
-		var clonedActiveElement = new SkinElement_map_pin_Class(this,me.__74a24);
-		me.__74a24__active = clonedActiveElement._map_pin;
-		me.__74a24__activeInst = clonedActiveElement;
-		me.__74a24__active.style.visibility='hidden';
-		me.__74a24__active.style.left='-12px';
-		me.__74a24__active.style.top='-41px';
-		me.__74a24.ggMarkerActive=me.__74a24__active;
-		me.__74a24.ggMarkerInstances.push(clonedActiveElement);
-		if (me.__74a24.firstChild) {
-			me.__74a24.insertBefore(me.__74a24__active,me.__74a24.firstChild);
+		var clonedNormalElement = new SkinElement_map_pin_Class(this,me.__74a25);
+		me.__74a25__normal = clonedNormalElement._map_pin;
+		me.__74a25__normalInst = clonedNormalElement;
+		me.__74a25__normal.style.visibility='inherit';
+		me.__74a25__normal.style.left='-12px';
+		me.__74a25__normal.style.top='-41px';
+		me.__74a25.ggMarkerNormal=me.__74a25__normal;
+		me.__74a25.ggMarkerInstances.push(clonedNormalElement);
+		var clonedActiveElement = new SkinElement_map_pin_Class(this,me.__74a25);
+		me.__74a25__active = clonedActiveElement._map_pin;
+		me.__74a25__activeInst = clonedActiveElement;
+		me.__74a25__active.style.visibility='hidden';
+		me.__74a25__active.style.left='-12px';
+		me.__74a25__active.style.top='-41px';
+		me.__74a25.ggMarkerActive=me.__74a25__active;
+		me.__74a25.ggMarkerInstances.push(clonedActiveElement);
+		if (me.__74a25.firstChild) {
+			me.__74a25.insertBefore(me.__74a25__active,me.__74a25.firstChild);
 		} else {
-			me.__74a24.appendChild(me.__74a24__active);
+			me.__74a25.appendChild(me.__74a25__active);
 		}
-		if (me.__74a24.firstChild) {
-			me.__74a24.insertBefore(me.__74a24__normal,me.__74a24.firstChild);
+		if (me.__74a25.firstChild) {
+			me.__74a25.insertBefore(me.__74a25__normal,me.__74a25.firstChild);
 		} else {
-			me.__74a24.appendChild(me.__74a24__normal);
+			me.__74a25.appendChild(me.__74a25__normal);
 		}
-		for (var i = 0; i < me.__74a24.childNodes.length; i++) {
-			me.__74a24.ggMarkerInstances.push(me.__74a24.childNodes[i]);
+		for (var i = 0; i < me.__74a25.childNodes.length; i++) {
+			me.__74a25.ggMarkerInstances.push(me.__74a25.childNodes[i]);
 		}
 		var clonedNormalElement = new SkinElement_map_pin_Class(this,me.__74a210);
 		me.__74a210__normal = clonedNormalElement._map_pin;
@@ -22221,6 +22221,35 @@ function pano2vrSkin(player,base) {
 		for (var i = 0; i < me.__74a210.childNodes.length; i++) {
 			me.__74a210.ggMarkerInstances.push(me.__74a210.childNodes[i]);
 		}
+		var clonedNormalElement = new SkinElement_map_pin_Class(this,me.__74a24);
+		me.__74a24__normal = clonedNormalElement._map_pin;
+		me.__74a24__normalInst = clonedNormalElement;
+		me.__74a24__normal.style.visibility='inherit';
+		me.__74a24__normal.style.left='-12px';
+		me.__74a24__normal.style.top='-41px';
+		me.__74a24.ggMarkerNormal=me.__74a24__normal;
+		me.__74a24.ggMarkerInstances.push(clonedNormalElement);
+		var clonedActiveElement = new SkinElement_map_pin_Class(this,me.__74a24);
+		me.__74a24__active = clonedActiveElement._map_pin;
+		me.__74a24__activeInst = clonedActiveElement;
+		me.__74a24__active.style.visibility='hidden';
+		me.__74a24__active.style.left='-12px';
+		me.__74a24__active.style.top='-41px';
+		me.__74a24.ggMarkerActive=me.__74a24__active;
+		me.__74a24.ggMarkerInstances.push(clonedActiveElement);
+		if (me.__74a24.firstChild) {
+			me.__74a24.insertBefore(me.__74a24__active,me.__74a24.firstChild);
+		} else {
+			me.__74a24.appendChild(me.__74a24__active);
+		}
+		if (me.__74a24.firstChild) {
+			me.__74a24.insertBefore(me.__74a24__normal,me.__74a24.firstChild);
+		} else {
+			me.__74a24.appendChild(me.__74a24__normal);
+		}
+		for (var i = 0; i < me.__74a24.childNodes.length; i++) {
+			me.__74a24.ggMarkerInstances.push(me.__74a24.childNodes[i]);
+		}
 		var clonedNormalElement = new SkinElement_map_pin_Class(this,me.__74a23);
 		me.__74a23__normal = clonedNormalElement._map_pin;
 		me.__74a23__normalInst = clonedNormalElement;
@@ -22249,64 +22278,6 @@ function pano2vrSkin(player,base) {
 		}
 		for (var i = 0; i < me.__74a23.childNodes.length; i++) {
 			me.__74a23.ggMarkerInstances.push(me.__74a23.childNodes[i]);
-		}
-		var clonedNormalElement = new SkinElement_map_pin_Class(this,me.__74a7);
-		me.__74a7__normal = clonedNormalElement._map_pin;
-		me.__74a7__normalInst = clonedNormalElement;
-		me.__74a7__normal.style.visibility='inherit';
-		me.__74a7__normal.style.left='-12px';
-		me.__74a7__normal.style.top='-41px';
-		me.__74a7.ggMarkerNormal=me.__74a7__normal;
-		me.__74a7.ggMarkerInstances.push(clonedNormalElement);
-		var clonedActiveElement = new SkinElement_map_pin_Class(this,me.__74a7);
-		me.__74a7__active = clonedActiveElement._map_pin;
-		me.__74a7__activeInst = clonedActiveElement;
-		me.__74a7__active.style.visibility='hidden';
-		me.__74a7__active.style.left='-12px';
-		me.__74a7__active.style.top='-41px';
-		me.__74a7.ggMarkerActive=me.__74a7__active;
-		me.__74a7.ggMarkerInstances.push(clonedActiveElement);
-		if (me.__74a7.firstChild) {
-			me.__74a7.insertBefore(me.__74a7__active,me.__74a7.firstChild);
-		} else {
-			me.__74a7.appendChild(me.__74a7__active);
-		}
-		if (me.__74a7.firstChild) {
-			me.__74a7.insertBefore(me.__74a7__normal,me.__74a7.firstChild);
-		} else {
-			me.__74a7.appendChild(me.__74a7__normal);
-		}
-		for (var i = 0; i < me.__74a7.childNodes.length; i++) {
-			me.__74a7.ggMarkerInstances.push(me.__74a7.childNodes[i]);
-		}
-		var clonedNormalElement = new SkinElement_map_pin_Class(this,me.__74a22);
-		me.__74a22__normal = clonedNormalElement._map_pin;
-		me.__74a22__normalInst = clonedNormalElement;
-		me.__74a22__normal.style.visibility='inherit';
-		me.__74a22__normal.style.left='-12px';
-		me.__74a22__normal.style.top='-41px';
-		me.__74a22.ggMarkerNormal=me.__74a22__normal;
-		me.__74a22.ggMarkerInstances.push(clonedNormalElement);
-		var clonedActiveElement = new SkinElement_map_pin_Class(this,me.__74a22);
-		me.__74a22__active = clonedActiveElement._map_pin;
-		me.__74a22__activeInst = clonedActiveElement;
-		me.__74a22__active.style.visibility='hidden';
-		me.__74a22__active.style.left='-12px';
-		me.__74a22__active.style.top='-41px';
-		me.__74a22.ggMarkerActive=me.__74a22__active;
-		me.__74a22.ggMarkerInstances.push(clonedActiveElement);
-		if (me.__74a22.firstChild) {
-			me.__74a22.insertBefore(me.__74a22__active,me.__74a22.firstChild);
-		} else {
-			me.__74a22.appendChild(me.__74a22__active);
-		}
-		if (me.__74a22.firstChild) {
-			me.__74a22.insertBefore(me.__74a22__normal,me.__74a22.firstChild);
-		} else {
-			me.__74a22.appendChild(me.__74a22__normal);
-		}
-		for (var i = 0; i < me.__74a22.childNodes.length; i++) {
-			me.__74a22.ggMarkerInstances.push(me.__74a22.childNodes[i]);
 		}
 		var clonedNormalElement = new SkinElement_map_pin_Class(this,me.__74a6);
 		me.__74a6__normal = clonedNormalElement._map_pin;
@@ -22395,34 +22366,34 @@ function pano2vrSkin(player,base) {
 		for (var i = 0; i < me.__74a4.childNodes.length; i++) {
 			me.__74a4.ggMarkerInstances.push(me.__74a4.childNodes[i]);
 		}
-		var clonedNormalElement = new SkinElement_map_pin_Class(this,me.__74a21);
-		me.__74a21__normal = clonedNormalElement._map_pin;
-		me.__74a21__normalInst = clonedNormalElement;
-		me.__74a21__normal.style.visibility='inherit';
-		me.__74a21__normal.style.left='-12px';
-		me.__74a21__normal.style.top='-41px';
-		me.__74a21.ggMarkerNormal=me.__74a21__normal;
-		me.__74a21.ggMarkerInstances.push(clonedNormalElement);
-		var clonedActiveElement = new SkinElement_map_pin_Class(this,me.__74a21);
-		me.__74a21__active = clonedActiveElement._map_pin;
-		me.__74a21__activeInst = clonedActiveElement;
-		me.__74a21__active.style.visibility='hidden';
-		me.__74a21__active.style.left='-12px';
-		me.__74a21__active.style.top='-41px';
-		me.__74a21.ggMarkerActive=me.__74a21__active;
-		me.__74a21.ggMarkerInstances.push(clonedActiveElement);
-		if (me.__74a21.firstChild) {
-			me.__74a21.insertBefore(me.__74a21__active,me.__74a21.firstChild);
+		var clonedNormalElement = new SkinElement_map_pin_Class(this,me.__74a22);
+		me.__74a22__normal = clonedNormalElement._map_pin;
+		me.__74a22__normalInst = clonedNormalElement;
+		me.__74a22__normal.style.visibility='inherit';
+		me.__74a22__normal.style.left='-12px';
+		me.__74a22__normal.style.top='-41px';
+		me.__74a22.ggMarkerNormal=me.__74a22__normal;
+		me.__74a22.ggMarkerInstances.push(clonedNormalElement);
+		var clonedActiveElement = new SkinElement_map_pin_Class(this,me.__74a22);
+		me.__74a22__active = clonedActiveElement._map_pin;
+		me.__74a22__activeInst = clonedActiveElement;
+		me.__74a22__active.style.visibility='hidden';
+		me.__74a22__active.style.left='-12px';
+		me.__74a22__active.style.top='-41px';
+		me.__74a22.ggMarkerActive=me.__74a22__active;
+		me.__74a22.ggMarkerInstances.push(clonedActiveElement);
+		if (me.__74a22.firstChild) {
+			me.__74a22.insertBefore(me.__74a22__active,me.__74a22.firstChild);
 		} else {
-			me.__74a21.appendChild(me.__74a21__active);
+			me.__74a22.appendChild(me.__74a22__active);
 		}
-		if (me.__74a21.firstChild) {
-			me.__74a21.insertBefore(me.__74a21__normal,me.__74a21.firstChild);
+		if (me.__74a22.firstChild) {
+			me.__74a22.insertBefore(me.__74a22__normal,me.__74a22.firstChild);
 		} else {
-			me.__74a21.appendChild(me.__74a21__normal);
+			me.__74a22.appendChild(me.__74a22__normal);
 		}
-		for (var i = 0; i < me.__74a21.childNodes.length; i++) {
-			me.__74a21.ggMarkerInstances.push(me.__74a21.childNodes[i]);
+		for (var i = 0; i < me.__74a22.childNodes.length; i++) {
+			me.__74a22.ggMarkerInstances.push(me.__74a22.childNodes[i]);
 		}
 		var clonedNormalElement = new SkinElement_map_pin_Class(this,me.__74a30);
 		me.__74a30__normal = clonedNormalElement._map_pin;
@@ -22482,34 +22453,34 @@ function pano2vrSkin(player,base) {
 		for (var i = 0; i < me.__74a3.childNodes.length; i++) {
 			me.__74a3.ggMarkerInstances.push(me.__74a3.childNodes[i]);
 		}
-		var clonedNormalElement = new SkinElement_map_pin_Class(this,me.__74a20);
-		me.__74a20__normal = clonedNormalElement._map_pin;
-		me.__74a20__normalInst = clonedNormalElement;
-		me.__74a20__normal.style.visibility='inherit';
-		me.__74a20__normal.style.left='-12px';
-		me.__74a20__normal.style.top='-41px';
-		me.__74a20.ggMarkerNormal=me.__74a20__normal;
-		me.__74a20.ggMarkerInstances.push(clonedNormalElement);
-		var clonedActiveElement = new SkinElement_map_pin_Class(this,me.__74a20);
-		me.__74a20__active = clonedActiveElement._map_pin;
-		me.__74a20__activeInst = clonedActiveElement;
-		me.__74a20__active.style.visibility='hidden';
-		me.__74a20__active.style.left='-12px';
-		me.__74a20__active.style.top='-41px';
-		me.__74a20.ggMarkerActive=me.__74a20__active;
-		me.__74a20.ggMarkerInstances.push(clonedActiveElement);
-		if (me.__74a20.firstChild) {
-			me.__74a20.insertBefore(me.__74a20__active,me.__74a20.firstChild);
+		var clonedNormalElement = new SkinElement_map_pin_Class(this,me.__74a21);
+		me.__74a21__normal = clonedNormalElement._map_pin;
+		me.__74a21__normalInst = clonedNormalElement;
+		me.__74a21__normal.style.visibility='inherit';
+		me.__74a21__normal.style.left='-12px';
+		me.__74a21__normal.style.top='-41px';
+		me.__74a21.ggMarkerNormal=me.__74a21__normal;
+		me.__74a21.ggMarkerInstances.push(clonedNormalElement);
+		var clonedActiveElement = new SkinElement_map_pin_Class(this,me.__74a21);
+		me.__74a21__active = clonedActiveElement._map_pin;
+		me.__74a21__activeInst = clonedActiveElement;
+		me.__74a21__active.style.visibility='hidden';
+		me.__74a21__active.style.left='-12px';
+		me.__74a21__active.style.top='-41px';
+		me.__74a21.ggMarkerActive=me.__74a21__active;
+		me.__74a21.ggMarkerInstances.push(clonedActiveElement);
+		if (me.__74a21.firstChild) {
+			me.__74a21.insertBefore(me.__74a21__active,me.__74a21.firstChild);
 		} else {
-			me.__74a20.appendChild(me.__74a20__active);
+			me.__74a21.appendChild(me.__74a21__active);
 		}
-		if (me.__74a20.firstChild) {
-			me.__74a20.insertBefore(me.__74a20__normal,me.__74a20.firstChild);
+		if (me.__74a21.firstChild) {
+			me.__74a21.insertBefore(me.__74a21__normal,me.__74a21.firstChild);
 		} else {
-			me.__74a20.appendChild(me.__74a20__normal);
+			me.__74a21.appendChild(me.__74a21__normal);
 		}
-		for (var i = 0; i < me.__74a20.childNodes.length; i++) {
-			me.__74a20.ggMarkerInstances.push(me.__74a20.childNodes[i]);
+		for (var i = 0; i < me.__74a21.childNodes.length; i++) {
+			me.__74a21.ggMarkerInstances.push(me.__74a21.childNodes[i]);
 		}
 		var clonedNormalElement = new SkinElement_map_pin_Class(this,me.__74a10);
 		me.__74a10__normal = clonedNormalElement._map_pin;
@@ -22539,6 +22510,35 @@ function pano2vrSkin(player,base) {
 		}
 		for (var i = 0; i < me.__74a10.childNodes.length; i++) {
 			me.__74a10.ggMarkerInstances.push(me.__74a10.childNodes[i]);
+		}
+		var clonedNormalElement = new SkinElement_map_pin_Class(this,me.__74a20);
+		me.__74a20__normal = clonedNormalElement._map_pin;
+		me.__74a20__normalInst = clonedNormalElement;
+		me.__74a20__normal.style.visibility='inherit';
+		me.__74a20__normal.style.left='-12px';
+		me.__74a20__normal.style.top='-41px';
+		me.__74a20.ggMarkerNormal=me.__74a20__normal;
+		me.__74a20.ggMarkerInstances.push(clonedNormalElement);
+		var clonedActiveElement = new SkinElement_map_pin_Class(this,me.__74a20);
+		me.__74a20__active = clonedActiveElement._map_pin;
+		me.__74a20__activeInst = clonedActiveElement;
+		me.__74a20__active.style.visibility='hidden';
+		me.__74a20__active.style.left='-12px';
+		me.__74a20__active.style.top='-41px';
+		me.__74a20.ggMarkerActive=me.__74a20__active;
+		me.__74a20.ggMarkerInstances.push(clonedActiveElement);
+		if (me.__74a20.firstChild) {
+			me.__74a20.insertBefore(me.__74a20__active,me.__74a20.firstChild);
+		} else {
+			me.__74a20.appendChild(me.__74a20__active);
+		}
+		if (me.__74a20.firstChild) {
+			me.__74a20.insertBefore(me.__74a20__normal,me.__74a20.firstChild);
+		} else {
+			me.__74a20.appendChild(me.__74a20__normal);
+		}
+		for (var i = 0; i < me.__74a20.childNodes.length; i++) {
+			me.__74a20.ggMarkerInstances.push(me.__74a20.childNodes[i]);
 		}
 		var clonedNormalElement = new SkinElement_map_pin_Class(this,me.__74a2);
 		me.__74a2__normal = clonedNormalElement._map_pin;
@@ -24849,35 +24849,6 @@ function pano2vrSkin(player,base) {
 		for (var i = 0; i < me.__74am5.childNodes.length; i++) {
 			me.__74am5.ggMarkerInstances.push(me.__74am5.childNodes[i]);
 		}
-		var clonedNormalElement = new SkinElement_map_pin_Class(this,me.__74am4);
-		me.__74am4__normal = clonedNormalElement._map_pin;
-		me.__74am4__normalInst = clonedNormalElement;
-		me.__74am4__normal.style.visibility='inherit';
-		me.__74am4__normal.style.left='-12px';
-		me.__74am4__normal.style.top='-41px';
-		me.__74am4.ggMarkerNormal=me.__74am4__normal;
-		me.__74am4.ggMarkerInstances.push(clonedNormalElement);
-		var clonedActiveElement = new SkinElement_map_pin_Class(this,me.__74am4);
-		me.__74am4__active = clonedActiveElement._map_pin;
-		me.__74am4__activeInst = clonedActiveElement;
-		me.__74am4__active.style.visibility='hidden';
-		me.__74am4__active.style.left='-12px';
-		me.__74am4__active.style.top='-41px';
-		me.__74am4.ggMarkerActive=me.__74am4__active;
-		me.__74am4.ggMarkerInstances.push(clonedActiveElement);
-		if (me.__74am4.firstChild) {
-			me.__74am4.insertBefore(me.__74am4__active,me.__74am4.firstChild);
-		} else {
-			me.__74am4.appendChild(me.__74am4__active);
-		}
-		if (me.__74am4.firstChild) {
-			me.__74am4.insertBefore(me.__74am4__normal,me.__74am4.firstChild);
-		} else {
-			me.__74am4.appendChild(me.__74am4__normal);
-		}
-		for (var i = 0; i < me.__74am4.childNodes.length; i++) {
-			me.__74am4.ggMarkerInstances.push(me.__74am4.childNodes[i]);
-		}
 		var clonedNormalElement = new SkinElement_map_pin_Class(this,me.__74am22);
 		me.__74am22__normal = clonedNormalElement._map_pin;
 		me.__74am22__normalInst = clonedNormalElement;
@@ -24936,6 +24907,35 @@ function pano2vrSkin(player,base) {
 		for (var i = 0; i < me.__74am30.childNodes.length; i++) {
 			me.__74am30.ggMarkerInstances.push(me.__74am30.childNodes[i]);
 		}
+		var clonedNormalElement = new SkinElement_map_pin_Class(this,me.__74am4);
+		me.__74am4__normal = clonedNormalElement._map_pin;
+		me.__74am4__normalInst = clonedNormalElement;
+		me.__74am4__normal.style.visibility='inherit';
+		me.__74am4__normal.style.left='-12px';
+		me.__74am4__normal.style.top='-41px';
+		me.__74am4.ggMarkerNormal=me.__74am4__normal;
+		me.__74am4.ggMarkerInstances.push(clonedNormalElement);
+		var clonedActiveElement = new SkinElement_map_pin_Class(this,me.__74am4);
+		me.__74am4__active = clonedActiveElement._map_pin;
+		me.__74am4__activeInst = clonedActiveElement;
+		me.__74am4__active.style.visibility='hidden';
+		me.__74am4__active.style.left='-12px';
+		me.__74am4__active.style.top='-41px';
+		me.__74am4.ggMarkerActive=me.__74am4__active;
+		me.__74am4.ggMarkerInstances.push(clonedActiveElement);
+		if (me.__74am4.firstChild) {
+			me.__74am4.insertBefore(me.__74am4__active,me.__74am4.firstChild);
+		} else {
+			me.__74am4.appendChild(me.__74am4__active);
+		}
+		if (me.__74am4.firstChild) {
+			me.__74am4.insertBefore(me.__74am4__normal,me.__74am4.firstChild);
+		} else {
+			me.__74am4.appendChild(me.__74am4__normal);
+		}
+		for (var i = 0; i < me.__74am4.childNodes.length; i++) {
+			me.__74am4.ggMarkerInstances.push(me.__74am4.childNodes[i]);
+		}
 		var clonedNormalElement = new SkinElement_map_pin_Class(this,me.__74am3);
 		me.__74am3__normal = clonedNormalElement._map_pin;
 		me.__74am3__normalInst = clonedNormalElement;
@@ -24964,35 +24964,6 @@ function pano2vrSkin(player,base) {
 		}
 		for (var i = 0; i < me.__74am3.childNodes.length; i++) {
 			me.__74am3.ggMarkerInstances.push(me.__74am3.childNodes[i]);
-		}
-		var clonedNormalElement = new SkinElement_map_pin_Class(this,me.__74am0);
-		me.__74am0__normal = clonedNormalElement._map_pin;
-		me.__74am0__normalInst = clonedNormalElement;
-		me.__74am0__normal.style.visibility='inherit';
-		me.__74am0__normal.style.left='-12px';
-		me.__74am0__normal.style.top='-41px';
-		me.__74am0.ggMarkerNormal=me.__74am0__normal;
-		me.__74am0.ggMarkerInstances.push(clonedNormalElement);
-		var clonedActiveElement = new SkinElement_map_pin_Class(this,me.__74am0);
-		me.__74am0__active = clonedActiveElement._map_pin;
-		me.__74am0__activeInst = clonedActiveElement;
-		me.__74am0__active.style.visibility='hidden';
-		me.__74am0__active.style.left='-12px';
-		me.__74am0__active.style.top='-41px';
-		me.__74am0.ggMarkerActive=me.__74am0__active;
-		me.__74am0.ggMarkerInstances.push(clonedActiveElement);
-		if (me.__74am0.firstChild) {
-			me.__74am0.insertBefore(me.__74am0__active,me.__74am0.firstChild);
-		} else {
-			me.__74am0.appendChild(me.__74am0__active);
-		}
-		if (me.__74am0.firstChild) {
-			me.__74am0.insertBefore(me.__74am0__normal,me.__74am0.firstChild);
-		} else {
-			me.__74am0.appendChild(me.__74am0__normal);
-		}
-		for (var i = 0; i < me.__74am0.childNodes.length; i++) {
-			me.__74am0.ggMarkerInstances.push(me.__74am0.childNodes[i]);
 		}
 		var clonedNormalElement = new SkinElement_map_pin_Class(this,me.__74am21);
 		me.__74am21__normal = clonedNormalElement._map_pin;
@@ -25167,6 +25138,35 @@ function pano2vrSkin(player,base) {
 		}
 		for (var i = 0; i < me.__74a.childNodes.length; i++) {
 			me.__74a.ggMarkerInstances.push(me.__74a.childNodes[i]);
+		}
+		var clonedNormalElement = new SkinElement_map_pin_Class(this,me.__74am0);
+		me.__74am0__normal = clonedNormalElement._map_pin;
+		me.__74am0__normalInst = clonedNormalElement;
+		me.__74am0__normal.style.visibility='inherit';
+		me.__74am0__normal.style.left='-12px';
+		me.__74am0__normal.style.top='-41px';
+		me.__74am0.ggMarkerNormal=me.__74am0__normal;
+		me.__74am0.ggMarkerInstances.push(clonedNormalElement);
+		var clonedActiveElement = new SkinElement_map_pin_Class(this,me.__74am0);
+		me.__74am0__active = clonedActiveElement._map_pin;
+		me.__74am0__activeInst = clonedActiveElement;
+		me.__74am0__active.style.visibility='hidden';
+		me.__74am0__active.style.left='-12px';
+		me.__74am0__active.style.top='-41px';
+		me.__74am0.ggMarkerActive=me.__74am0__active;
+		me.__74am0.ggMarkerInstances.push(clonedActiveElement);
+		if (me.__74am0.firstChild) {
+			me.__74am0.insertBefore(me.__74am0__active,me.__74am0.firstChild);
+		} else {
+			me.__74am0.appendChild(me.__74am0__active);
+		}
+		if (me.__74am0.firstChild) {
+			me.__74am0.insertBefore(me.__74am0__normal,me.__74am0.firstChild);
+		} else {
+			me.__74am0.appendChild(me.__74am0__normal);
+		}
+		for (var i = 0; i < me.__74am0.childNodes.length; i++) {
+			me.__74am0.ggMarkerInstances.push(me.__74am0.childNodes[i]);
 		}
 		me.__74bm.logicBlock_visible();
 		var clonedNormalElement = new SkinElement_map_pin_Class(this,me.__74bm_10);
@@ -27870,40 +27870,40 @@ function pano2vrSkin(player,base) {
 			me.__74b0__normalInst.ggEvent_changenode();
 			me.__74b0__activeInst.ggEvent_changenode();
 			me.__74a0.logicBlock_visible();
-			me.__74a8__normalInst.ggEvent_changenode();
-			me.__74a8__activeInst.ggEvent_changenode();
+			me.__74a7__normalInst.ggEvent_changenode();
+			me.__74a7__activeInst.ggEvent_changenode();
 			me.__74a11__normalInst.ggEvent_changenode();
 			me.__74a11__activeInst.ggEvent_changenode();
 			me.__74a32__normalInst.ggEvent_changenode();
 			me.__74a32__activeInst.ggEvent_changenode();
 			me.__74a31__normalInst.ggEvent_changenode();
 			me.__74a31__activeInst.ggEvent_changenode();
-			me.__74a24__normalInst.ggEvent_changenode();
-			me.__74a24__activeInst.ggEvent_changenode();
+			me.__74a25__normalInst.ggEvent_changenode();
+			me.__74a25__activeInst.ggEvent_changenode();
 			me.__74a210__normalInst.ggEvent_changenode();
 			me.__74a210__activeInst.ggEvent_changenode();
+			me.__74a24__normalInst.ggEvent_changenode();
+			me.__74a24__activeInst.ggEvent_changenode();
 			me.__74a23__normalInst.ggEvent_changenode();
 			me.__74a23__activeInst.ggEvent_changenode();
-			me.__74a7__normalInst.ggEvent_changenode();
-			me.__74a7__activeInst.ggEvent_changenode();
-			me.__74a22__normalInst.ggEvent_changenode();
-			me.__74a22__activeInst.ggEvent_changenode();
 			me.__74a6__normalInst.ggEvent_changenode();
 			me.__74a6__activeInst.ggEvent_changenode();
 			me.__74a5__normalInst.ggEvent_changenode();
 			me.__74a5__activeInst.ggEvent_changenode();
 			me.__74a4__normalInst.ggEvent_changenode();
 			me.__74a4__activeInst.ggEvent_changenode();
-			me.__74a21__normalInst.ggEvent_changenode();
-			me.__74a21__activeInst.ggEvent_changenode();
+			me.__74a22__normalInst.ggEvent_changenode();
+			me.__74a22__activeInst.ggEvent_changenode();
 			me.__74a30__normalInst.ggEvent_changenode();
 			me.__74a30__activeInst.ggEvent_changenode();
 			me.__74a3__normalInst.ggEvent_changenode();
 			me.__74a3__activeInst.ggEvent_changenode();
-			me.__74a20__normalInst.ggEvent_changenode();
-			me.__74a20__activeInst.ggEvent_changenode();
+			me.__74a21__normalInst.ggEvent_changenode();
+			me.__74a21__activeInst.ggEvent_changenode();
 			me.__74a10__normalInst.ggEvent_changenode();
 			me.__74a10__activeInst.ggEvent_changenode();
+			me.__74a20__normalInst.ggEvent_changenode();
+			me.__74a20__activeInst.ggEvent_changenode();
 			me.__74a2__normalInst.ggEvent_changenode();
 			me.__74a2__activeInst.ggEvent_changenode();
 			me.__74a1__normalInst.ggEvent_changenode();
@@ -28101,16 +28101,14 @@ function pano2vrSkin(player,base) {
 			me.__74am23__activeInst.ggEvent_changenode();
 			me.__74am5__normalInst.ggEvent_changenode();
 			me.__74am5__activeInst.ggEvent_changenode();
-			me.__74am4__normalInst.ggEvent_changenode();
-			me.__74am4__activeInst.ggEvent_changenode();
 			me.__74am22__normalInst.ggEvent_changenode();
 			me.__74am22__activeInst.ggEvent_changenode();
 			me.__74am30__normalInst.ggEvent_changenode();
 			me.__74am30__activeInst.ggEvent_changenode();
+			me.__74am4__normalInst.ggEvent_changenode();
+			me.__74am4__activeInst.ggEvent_changenode();
 			me.__74am3__normalInst.ggEvent_changenode();
 			me.__74am3__activeInst.ggEvent_changenode();
-			me.__74am0__normalInst.ggEvent_changenode();
-			me.__74am0__activeInst.ggEvent_changenode();
 			me.__74am21__normalInst.ggEvent_changenode();
 			me.__74am21__activeInst.ggEvent_changenode();
 			me.__74am10__normalInst.ggEvent_changenode();
@@ -28123,6 +28121,8 @@ function pano2vrSkin(player,base) {
 			me.__74am2__activeInst.ggEvent_changenode();
 			me.__74a__normalInst.ggEvent_changenode();
 			me.__74a__activeInst.ggEvent_changenode();
+			me.__74am0__normalInst.ggEvent_changenode();
+			me.__74am0__activeInst.ggEvent_changenode();
 			me.__74bm.logicBlock_visible();
 			me.__74bm_10__normalInst.ggEvent_changenode();
 			me.__74bm_10__activeInst.ggEvent_changenode();
@@ -28378,40 +28378,40 @@ function pano2vrSkin(player,base) {
 			me.__74b0__normalInst.ggEvent_configloaded();
 			me.__74b0__activeInst.ggEvent_configloaded();
 			me.__74a0.logicBlock_visible();
-			me.__74a8__normalInst.ggEvent_configloaded();
-			me.__74a8__activeInst.ggEvent_configloaded();
+			me.__74a7__normalInst.ggEvent_configloaded();
+			me.__74a7__activeInst.ggEvent_configloaded();
 			me.__74a11__normalInst.ggEvent_configloaded();
 			me.__74a11__activeInst.ggEvent_configloaded();
 			me.__74a32__normalInst.ggEvent_configloaded();
 			me.__74a32__activeInst.ggEvent_configloaded();
 			me.__74a31__normalInst.ggEvent_configloaded();
 			me.__74a31__activeInst.ggEvent_configloaded();
-			me.__74a24__normalInst.ggEvent_configloaded();
-			me.__74a24__activeInst.ggEvent_configloaded();
+			me.__74a25__normalInst.ggEvent_configloaded();
+			me.__74a25__activeInst.ggEvent_configloaded();
 			me.__74a210__normalInst.ggEvent_configloaded();
 			me.__74a210__activeInst.ggEvent_configloaded();
+			me.__74a24__normalInst.ggEvent_configloaded();
+			me.__74a24__activeInst.ggEvent_configloaded();
 			me.__74a23__normalInst.ggEvent_configloaded();
 			me.__74a23__activeInst.ggEvent_configloaded();
-			me.__74a7__normalInst.ggEvent_configloaded();
-			me.__74a7__activeInst.ggEvent_configloaded();
-			me.__74a22__normalInst.ggEvent_configloaded();
-			me.__74a22__activeInst.ggEvent_configloaded();
 			me.__74a6__normalInst.ggEvent_configloaded();
 			me.__74a6__activeInst.ggEvent_configloaded();
 			me.__74a5__normalInst.ggEvent_configloaded();
 			me.__74a5__activeInst.ggEvent_configloaded();
 			me.__74a4__normalInst.ggEvent_configloaded();
 			me.__74a4__activeInst.ggEvent_configloaded();
-			me.__74a21__normalInst.ggEvent_configloaded();
-			me.__74a21__activeInst.ggEvent_configloaded();
+			me.__74a22__normalInst.ggEvent_configloaded();
+			me.__74a22__activeInst.ggEvent_configloaded();
 			me.__74a30__normalInst.ggEvent_configloaded();
 			me.__74a30__activeInst.ggEvent_configloaded();
 			me.__74a3__normalInst.ggEvent_configloaded();
 			me.__74a3__activeInst.ggEvent_configloaded();
-			me.__74a20__normalInst.ggEvent_configloaded();
-			me.__74a20__activeInst.ggEvent_configloaded();
+			me.__74a21__normalInst.ggEvent_configloaded();
+			me.__74a21__activeInst.ggEvent_configloaded();
 			me.__74a10__normalInst.ggEvent_configloaded();
 			me.__74a10__activeInst.ggEvent_configloaded();
+			me.__74a20__normalInst.ggEvent_configloaded();
+			me.__74a20__activeInst.ggEvent_configloaded();
 			me.__74a2__normalInst.ggEvent_configloaded();
 			me.__74a2__activeInst.ggEvent_configloaded();
 			me.__74a1__normalInst.ggEvent_configloaded();
@@ -28605,16 +28605,14 @@ function pano2vrSkin(player,base) {
 			me.__74am23__activeInst.ggEvent_configloaded();
 			me.__74am5__normalInst.ggEvent_configloaded();
 			me.__74am5__activeInst.ggEvent_configloaded();
-			me.__74am4__normalInst.ggEvent_configloaded();
-			me.__74am4__activeInst.ggEvent_configloaded();
 			me.__74am22__normalInst.ggEvent_configloaded();
 			me.__74am22__activeInst.ggEvent_configloaded();
 			me.__74am30__normalInst.ggEvent_configloaded();
 			me.__74am30__activeInst.ggEvent_configloaded();
+			me.__74am4__normalInst.ggEvent_configloaded();
+			me.__74am4__activeInst.ggEvent_configloaded();
 			me.__74am3__normalInst.ggEvent_configloaded();
 			me.__74am3__activeInst.ggEvent_configloaded();
-			me.__74am0__normalInst.ggEvent_configloaded();
-			me.__74am0__activeInst.ggEvent_configloaded();
 			me.__74am21__normalInst.ggEvent_configloaded();
 			me.__74am21__activeInst.ggEvent_configloaded();
 			me.__74am10__normalInst.ggEvent_configloaded();
@@ -28627,6 +28625,8 @@ function pano2vrSkin(player,base) {
 			me.__74am2__activeInst.ggEvent_configloaded();
 			me.__74a__normalInst.ggEvent_configloaded();
 			me.__74a__activeInst.ggEvent_configloaded();
+			me.__74am0__normalInst.ggEvent_configloaded();
+			me.__74am0__activeInst.ggEvent_configloaded();
 			me.__74bm.logicBlock_visible();
 			me.__74bm_10__normalInst.ggEvent_configloaded();
 			me.__74bm_10__activeInst.ggEvent_configloaded();
