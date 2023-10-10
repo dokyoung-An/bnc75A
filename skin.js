@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.6/20004
 // Filename: ?? ?????.ggsk
-// Generated 2023-10-10T15:38:43
+// Generated 2023-10-10T17:52:36
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_catagory', 2, false, { ignoreInState: 0  });
@@ -18763,7 +18763,7 @@ function pano2vrSkin(player,base) {
 				me.__10.style.transition='right 0s, bottom 0s, width 0s, height 0s';
 				if (me.__10.ggCurrentLogicStatePosition == 0) {
 					me.__10.style.right='3%';
-					me.__10.style.bottom='25%';
+					me.__10.style.bottom='0%';
 				}
 				else {
 					me.__10.style.right='4.69%';
@@ -18822,15 +18822,20 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_text ";
 		el.ggType='text';
 		hs ='';
-		hs+='bottom : -19%;';
+		hs+=cssPrefix + 'background-clip : padding-box;';
+		hs+='background-clip : padding-box;';
+		hs+='background : rgba(255,255,255,0);';
+		hs+='border : 1px solid rgba(0,0,0,0);';
+		hs+='bottom : 0%;';
 		hs+='color : rgba(255,255,255,0.901961);';
-		hs+='height : auto;';
+		hs+='cursor : default;';
+		hs+='height : 30%;';
 		hs+='position : absolute;';
 		hs+='right : 0%;';
 		hs+='visibility : hidden;';
-		hs+='width : calc(100% + 2px);';
+		hs+='width : 90%;';
 		hs+='pointer-events:auto;';
-		hs+='font-size:0.9em;';
+		hs+='font-size:0.9em; word-break: keep-all;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
 		hs ='';
@@ -18838,21 +18843,20 @@ function pano2vrSkin(player,base) {
 		hs+='cursor: default;';
 		hs+='width: 100%;';
 		hs+='height: auto;';
-		hs+=cssPrefix + 'background-clip : padding-box;';
-		hs+='background-clip : padding-box;';
-		hs+='background : rgba(255,255,255,0);';
-		hs+='border : 1px solid rgba(0,0,0,0);';
-		hs+='cursor : default;';
+		hs+='max-height: 100%;';
 		hs+='font-size: 10px;';
 		hs+='font-weight: inherit;';
 		hs+='text-align: right;';
+		hs+='position: absolute;';
+		hs+='top: 50%;';
+		hs+='transform: translate(0, -50%);';
 		hs+='white-space: pre-line;';
 		hs+='padding: 0px;';
 		hs+='overflow: hidden;';
 		els.setAttribute('style',hs);
 		me.__60.ggUpdateText=function() {
 			var params = [];
-			var hs = player._("* \ubcf8 \ucee8\ud150\uce20\ub294 PC \uc0ac\uc6a9\uc744 \uad8c\uc7a5\ud569\ub2c8\ub2e4.\n* \ubcf8 \ucf58\ud150\uce20\ub294 \uc18c\ube44\uc790\uc758 \uc774\ud574\ub97c \ub3d5\uae30 \uc704\ud574 \uac00\uc0c1\uc73c\ub85c \uad6c\ud604\ub41c \uc138\ub300 VR\uc774\uba70, \n\ucf58\ud150\uce20 \ud2b9\uc131\uc0c1 \uc65c\uace1\ub41c \uc774\ubbf8\uc9c0\ub85c \uc778\ud574 \uc2e4\uc81c\uc640 \ub2ec\ub77c \ubcf4\uc77c \uc218 \uc788\uc2b5\ub2c8\ub2e4.", params);
+			var hs = player._("* \ubcf8 \ucf58\ud150\uce20\ub294 PC \uc0ac\uc6a9\uc744 \uad8c\uc7a5\ud569\ub2c8\ub2e4.\n* \ubcf8 \ucf58\ud150\uce20\ub294 \uc18c\ube44\uc790\uc758 \uc774\ud574\ub97c \ub3d5\uae30 \uc704\ud574 \uac00\uc0c1\uc73c\ub85c \uad6c\ud604\ud55c \uc138\ub300 VR\uc774\uba70, \ucf58\ud150\uce20 \ud2b9\uc131\uc0c1 \uc65c\uace1\ub41c \uc774\ubbf8\uc9c0\ub85c \uc778\ud574 \uc2e4\uc81c\uc640 \ub2ec\ub77c\ubcf4\uc77c \uc218 \uc788\uc2b5\ub2c8\ub2e4.\n* \ubcf8 \ucf58\ud150\uce20\ub294 \uc785\uc8fc\uc790\uc758 \uc774\ud574\ub97c \ub3d5\uae30 \uc704\ud55c \uac83\uc73c\ub85c \uc0c9\uc0c1 \ubc0f \uc7ac\uc9c8\uc774 \uc2e4\uc81c \uc2dc\uacf5\uacfc\ub294 \ucc28\uc774\uac00 \uc788\uc744 \uc218 \uc788\uc2b5\ub2c8\ub2e4.\n* \ubcf8 \ucf58\ud150\uce20\ub294 \uc720\uc0c1\uc635\uc158 \ud488\ubaa9\uc774 \uc2e4\uc81c \uc2dc\uacf5 \uc2dc \uc124\uce58\ub418\uc9c0 \uc54a\ub294 \uc804\uc2dc\ud488(\uac00\uad6c, \uc2e4\ub0b4\uc7a5\uc2dd\ud488 \ub4f1)\uc774 \ud3ec\ud568\ub418\uc5b4 \uc788\uc73c\uba70, \uc790\uc138\ud55c \ub0b4\uc6a9\uc740 \uacf5\uae09 \uc548\ub0b4\ubb38\uacfc \ub0b4\ubd80 \ub9c8\uac10\uc7ac \ub0b4\uc5ed\uc744 \ucc38\uace0\ud558\uc2dc\uae30 \ubc14\ub78d\ub2c8\ub2e4.", params);
 			if (hs!=this.ggText) {
 				this.ggText=hs;
 				this.ggTextDiv.innerHTML=hs;
@@ -18895,15 +18899,15 @@ function pano2vrSkin(player,base) {
 				me.__60.style.transition='right 0s, bottom 0s, width 0s, height 0s, color 0s';
 				if (me.__60.ggCurrentLogicStatePosition == 0) {
 					me.__60.style.right='0%';
-					me.__60.style.bottom='-23%';
+					me.__60.style.bottom='0%';
 				}
 				else if (me.__60.ggCurrentLogicStatePosition == 1) {
 					me.__60.style.right='0%';
-					me.__60.style.bottom='-23%';
+					me.__60.style.bottom='0%';
 				}
 				else {
 					me.__60.style.right='0%';
-					me.__60.style.bottom='-19%';
+					me.__60.style.bottom='0%';
 				}
 			}
 		}
@@ -18912,7 +18916,7 @@ function pano2vrSkin(player,base) {
 			var newLogicStateSize;
 			if (
 				((player.getIsMobile() == true)) && 
-				((player.getViewerSize().width <= 420))
+				((player.getViewerSize().width <= 460))
 			)
 			{
 				newLogicStateSize = 0;
@@ -18922,15 +18926,15 @@ function pano2vrSkin(player,base) {
 			}
 			if (me.__60.ggCurrentLogicStateSize != newLogicStateSize) {
 				me.__60.ggCurrentLogicStateSize = newLogicStateSize;
-				me.__60__text.style.transition='right 0s, bottom 0s, width 0s, height 0s, color 0s';
+				me.__60.style.transition='right 0s, bottom 0s, width 0s, height 0s, color 0s';
 				if (me.__60.ggCurrentLogicStateSize == 0) {
-					me.__60__text.style.width='100%';
-					me.__60__text.style.height='25%';
+					me.__60.style.width='100%';
+					me.__60.style.height='20%';
 					skin.updateSize(me.__60);
 				}
 				else {
-					me.__60__text.style.width='calc(100% + 2px)';
-					me.__60__text.style.height='auto';
+					me.__60.style.width='90%';
+					me.__60.style.height='30%';
 					skin.updateSize(me.__60);
 				}
 			}
@@ -18984,7 +18988,7 @@ function pano2vrSkin(player,base) {
 			}
 			if (me.__60.ggCurrentLogicStateTextColor != newLogicStateTextColor) {
 				me.__60.ggCurrentLogicStateTextColor = newLogicStateTextColor;
-				me.__60__text.style.transition='right 0s, bottom 0s, width 0s, height 0s, color 0s';
+				me.__60.style.transition='right 0s, bottom 0s, width 0s, height 0s, color 0s';
 				if (me.__60.ggCurrentLogicStateTextColor == 0) {
 					me.__60.style.color="rgba(34,34,34,1)";
 				}
@@ -19015,7 +19019,7 @@ function pano2vrSkin(player,base) {
 		hs+='visibility : inherit;';
 		hs+='width : calc(100% + 2px);';
 		hs+='pointer-events:auto;';
-		hs+='font-size:0.9em;';
+		hs+='font-size:0.9em;word-break: keep-all;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
 		hs ='';
@@ -19037,7 +19041,7 @@ function pano2vrSkin(player,base) {
 		els.setAttribute('style',hs);
 		me.__pc.ggUpdateText=function() {
 			var params = [];
-			var hs = player._("* \ubcf8 \ucee8\ud150\uce20\ub294 PC \uc0ac\uc6a9\uc744 \uad8c\uc7a5\ud569\ub2c8\ub2e4.\n* \ubcf8 \ucf58\ud150\uce20\ub294 \uc18c\ube44\uc790\uc758 \uc774\ud574\ub97c \ub3d5\uae30 \uc704\ud574 \uac00\uc0c1\uc73c\ub85c \uad6c\ud604\ub41c \uc138\ub300 VR\uc774\uba70, \n\ucf58\ud150\uce20 \ud2b9\uc131\uc0c1 \uc65c\uace1\ub41c \uc774\ubbf8\uc9c0\ub85c \uc778\ud574 \uc2e4\uc81c\uc640 \ub2ec\ub77c \ubcf4\uc77c \uc218 \uc788\uc2b5\ub2c8\ub2e4.", params);
+			var hs = player._("* \ubcf8 \ucf58\ud150\uce20\ub294 PC \uc0ac\uc6a9\uc744 \uad8c\uc7a5\ud569\ub2c8\ub2e4.\n* \ubcf8 \ucf58\ud150\uce20\ub294 \uc18c\ube44\uc790\uc758 \uc774\ud574\ub97c \ub3d5\uae30 \uc704\ud574 \uac00\uc0c1\uc73c\ub85c \uad6c\ud604\ud55c \uc138\ub300 VR\uc774\uba70, \ucf58\ud150\uce20 \ud2b9\uc131\uc0c1 \uc65c\uace1\ub41c \uc774\ubbf8\uc9c0\ub85c \uc778\ud574 \uc2e4\uc81c\uc640 \ub2ec\ub77c\ubcf4\uc77c \uc218 \uc788\uc2b5\ub2c8\ub2e4.\n* \ubcf8 \ucf58\ud150\uce20\ub294 \uc785\uc8fc\uc790\uc758 \uc774\ud574\ub97c \ub3d5\uae30 \uc704\ud55c \uac83\uc73c\ub85c \uc0c9\uc0c1 \ubc0f \uc7ac\uc9c8\uc774 \uc2e4\uc81c \uc2dc\uacf5\uacfc\ub294 \ucc28\uc774\uac00 \uc788\uc744 \uc218 \uc788\uc2b5\ub2c8\ub2e4.\n* \ubcf8 \ucf58\ud150\uce20\ub294 \uc720\uc0c1\uc635\uc158 \ud488\ubaa9\uc774 \uc2e4\uc81c \uc2dc\uacf5 \uc2dc \uc124\uce58\ub418\uc9c0 \uc54a\ub294 \uc804\uc2dc\ud488(\uac00\uad6c, \uc2e4\ub0b4\uc7a5\uc2dd\ud488 \ub4f1)\uc774 \ud3ec\ud568\ub418\uc5b4 \uc788\uc73c\uba70, \uc790\uc138\ud55c \ub0b4\uc6a9\uc740 \uacf5\uae09 \uc548\ub0b4\ubb38\uacfc \ub0b4\ubd80 \ub9c8\uac10\uc7ac \ub0b4\uc5ed\uc744 \ucc38\uace0\ud558\uc2dc\uae30 \ubc14\ub78d\ub2c8\ub2e4.", params);
 			if (hs!=this.ggText) {
 				this.ggText=hs;
 				this.ggTextDiv.innerHTML=hs;
