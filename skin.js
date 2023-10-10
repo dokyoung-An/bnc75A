@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.6/20004
 // Filename: ?? ?????.ggsk
-// Generated 2023-10-10T10:50:18
+// Generated 2023-10-10T15:38:43
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_catagory', 2, false, { ignoreInState: 0  });
@@ -9094,7 +9094,7 @@ function pano2vrSkin(player,base) {
 		els.setAttribute('style',hs);
 		me.__410.ggUpdateText=function() {
 			var params = [];
-			var hs = player._("84RP1 TYPE", params);
+			var hs = player._("84RP1 TYPE - \uc900\ube44\uc911", params);
 			if (hs!=this.ggText) {
 				this.ggText=hs;
 				this.ggTextDiv.innerHTML=hs;
@@ -9162,7 +9162,7 @@ function pano2vrSkin(player,base) {
 		}
 		me.__410.logicBlock_textcolor();
 		me.__410.onclick=function (e) {
-			player.openUrl("https:\/\/web-bnc84rp1-iciy2aln07tnbm.sel5.cloudtype.app\/","_self");
+			player.openUrl("","_self");
 		}
 		me.__410.onmouseover=function (e) {
 			me.elementMouseOver['_410']=true;
@@ -9317,7 +9317,7 @@ function pano2vrSkin(player,base) {
 		els.setAttribute('style',hs);
 		me.__510.ggUpdateText=function() {
 			var params = [];
-			var hs = player._("84RP2 TYPE", params);
+			var hs = player._("84RP2 TYPE - \uc900\ube44\uc911", params);
 			if (hs!=this.ggText) {
 				this.ggText=hs;
 				this.ggTextDiv.innerHTML=hs;
@@ -9385,7 +9385,7 @@ function pano2vrSkin(player,base) {
 		}
 		me.__510.logicBlock_textcolor();
 		me.__510.onclick=function (e) {
-			player.openUrl("https:\/\/web-bnc84rp2-iciy2aln07tnbm.sel5.cloudtype.app\/","_self");
+			player.openUrl("","_self");
 		}
 		me.__510.onmouseover=function (e) {
 			me.elementMouseOver['_510']=true;
@@ -9540,7 +9540,7 @@ function pano2vrSkin(player,base) {
 		els.setAttribute('style',hs);
 		me.__61.ggUpdateText=function() {
 			var params = [];
-			var hs = player._("84RP3 TYPE", params);
+			var hs = player._("84RP3 TYPE - \uc900\ube44\uc911", params);
 			if (hs!=this.ggText) {
 				this.ggText=hs;
 				this.ggTextDiv.innerHTML=hs;
@@ -9608,7 +9608,7 @@ function pano2vrSkin(player,base) {
 		}
 		me.__61.logicBlock_textcolor();
 		me.__61.onclick=function (e) {
-			player.openUrl("https:\/\/web-bnc84rp3-iciy2aln07tnbm.sel5.cloudtype.app\/","_self");
+			player.openUrl("","_self");
 		}
 		me.__61.onmouseover=function (e) {
 			me.elementMouseOver['_61']=true;
@@ -19832,7 +19832,7 @@ function pano2vrSkin(player,base) {
 		els.setAttribute('style',hs);
 		me._m_6.ggUpdateText=function() {
 			var params = [];
-			var hs = player._("84RP3 TYPE ", params);
+			var hs = player._("84RP3 TYPE - \uc900\ube44\uc911", params);
 			if (hs!=this.ggText) {
 				this.ggText=hs;
 				this.ggTextDiv.innerHTML=hs;
@@ -19900,7 +19900,7 @@ function pano2vrSkin(player,base) {
 		}
 		me._m_6.logicBlock_textcolor();
 		me._m_6.onclick=function (e) {
-			player.openUrl("https:\/\/web-bnc84rp3-iciy2aln07tnbm.sel5.cloudtype.app\/","_self");
+			player.openUrl("","_self");
 		}
 		me._m_6.onmouseover=function (e) {
 			me.elementMouseOver['m_6']=true;
@@ -20077,7 +20077,7 @@ function pano2vrSkin(player,base) {
 		els.setAttribute('style',hs);
 		me._m_5.ggUpdateText=function() {
 			var params = [];
-			var hs = player._("84RP2 TYPE", params);
+			var hs = player._("84RP2 TYPE - \uc900\ube44\uc911", params);
 			if (hs!=this.ggText) {
 				this.ggText=hs;
 				this.ggTextDiv.innerHTML=hs;
@@ -20145,7 +20145,7 @@ function pano2vrSkin(player,base) {
 		}
 		me._m_5.logicBlock_textcolor();
 		me._m_5.onclick=function (e) {
-			player.openUrl("https:\/\/web-bnc84rp2-iciy2aln07tnbm.sel5.cloudtype.app\/","_self");
+			player.openUrl("","_self");
 		}
 		me._m_5.onmouseover=function (e) {
 			me.elementMouseOver['m_5']=true;
@@ -20322,7 +20322,7 @@ function pano2vrSkin(player,base) {
 		els.setAttribute('style',hs);
 		me._m_4.ggUpdateText=function() {
 			var params = [];
-			var hs = player._("84RP1 TYPE", params);
+			var hs = player._("84RP1 TYPE - \uc900\ube44\uc911", params);
 			if (hs!=this.ggText) {
 				this.ggText=hs;
 				this.ggTextDiv.innerHTML=hs;
@@ -20390,7 +20390,7 @@ function pano2vrSkin(player,base) {
 		}
 		me._m_4.logicBlock_textcolor();
 		me._m_4.onclick=function (e) {
-			player.openUrl("https:\/\/web-bnc84rp1-iciy2aln07tnbm.sel5.cloudtype.app\/","_self");
+			player.openUrl("","_self");
 		}
 		me._m_4.onmouseover=function (e) {
 			me.elementMouseOver['m_4']=true;
